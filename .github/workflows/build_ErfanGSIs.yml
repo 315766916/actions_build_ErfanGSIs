@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL: https://firmware.meizu.com/Firmware/Flyme/m2191/9.0.1.0/cn/20210310200723/8645f200/update.zip
-  ROM_NAME: MEIZUUI904262
+  ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
 jobs:
@@ -36,8 +36,8 @@ jobs:
          
        - name: Fix exit
          run: |
-              sed -i 's/\|\| exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh -aonly
-              sed -i 's/exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh -a
+              sed -i 's/\|\| exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh --ab
+              sed -i 's/exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh -b
        
        - name: Setting up ErfanGSI requirements
          run: |
