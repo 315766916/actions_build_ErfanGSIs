@@ -14,8 +14,8 @@ on:
     types: [started]
     
 env:
-  ROM_URL: http://bigota.d.miui.com/20.4.27/miui_MIMIX3_20.4.27_8f7879221b_10.0.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://ip4009419898.mobgslb.tbcache.com/Firmware/Flyme/m2191/9.0.1.0/cn/20210310200723/8645f200/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=737852c2595a05b50e598601bea251be6a80c0c9fa51bad1&ali_redirect_ex_tmining_ts=1619396926&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
+  ROM_NAME: MZui9
   TZ: Asia/Shanghai
 
 jobs:
