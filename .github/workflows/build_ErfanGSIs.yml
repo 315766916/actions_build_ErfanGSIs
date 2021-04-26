@@ -15,7 +15,7 @@ on:
     
 env:
   ROM_URL:https://ip4059751546.mobgslb.tbcache.com/Firmware/Flyme/m2191/9.0.1.0/cn/20210310200723/8645f200/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=fe71fbcb8b6721d99dab84ced109850976acba6edcc81461&ali_redirect_ex_tmining_ts=1619411038&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100 
-  ROM_NAME: MZui9-2
+  ROM_NAME:MZui9-2
   TZ: Asia/Shanghai
 
 jobs:
