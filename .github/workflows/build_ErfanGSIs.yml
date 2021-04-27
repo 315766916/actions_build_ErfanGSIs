@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/m2191/9.0.1.0/cn/20210310200723/8645f200/update.zip
+  ROM_URL: https://ip1189938863.mobgslb.tbcache.com/Firmware/Flyme/meizu18_Pro/9.0.1.1/cn/20210425155924/573cc645/update.zip?ali_redirect_domain=firmware.meizu.com&ali_redirect_ex_ftag=32a685e041eb6085dccf0aeb3a32a950d0457c6bbbbbc8fb&ali_redirect_ex_tmining_ts=1619511478&ali_redirect_ex_tmining_expire=3600&ali_redirect_ex_hot=100
   ROM_NAME: MIUI
   TZ: Asia/Shanghai
 
@@ -36,8 +36,8 @@ jobs:
          
        - name: Fix exit
          run: |
-              sed -i 's/\|\| exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh --ab
-              sed -i 's/exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh -b
+              sed -i 's/\|\| exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh 
+              sed -i 's/exit 1//g' $GITHUB_WORKSPACE/ErfanGSIs/url2GSI.sh 
        
        - name: Setting up ErfanGSI requirements
          run: |
